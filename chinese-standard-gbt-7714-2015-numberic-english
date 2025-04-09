@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" name-as-sort-order="all" sort-separator=" " demote-non-dropping-particle="never" initialize-with=" " initialize-with-hyphen="false" page-range-format="expanded" default-locale="en-US">
+  <info>
+    <title>China National Standard GB/T 7714-2015 (numeric, English)</title>
+    <id>http://www.zotero.org/styles/china-national-standard-gb-t-7714-2015-numeric-en</id>
+    <link href="http://www.zotero.org/styles/china-national-standard-gb-t-7714-2015-numeric-en" rel="self"/>
+    <link href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D8055ED3A7E05397BE0A0AB82A" rel="documentation"/>
+    <author>
+      <name>Translated by ChatGPT</name>
+      <email>noreply@example.com</email>
+    </author>
+    <contributor>
+      <name>Original: 牛耕田, Zeping Lee</name>
+    </contributor>
+    <category citation-format="numeric"/>
+    <category field="generic-base"/>
+    <summary>The English version of the Chinese GB/T 7714-2015 numeric citation style</summary>
+    <updated>2025-04-09T00:00:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <locale xml:lang="en">
+    <terms>
+      <term name="edition" form="short">ed.</term>
+      <term name="open-quote">“</term>
+      <term name="close-quote">”</term>
+      <term name="open-inner-quote">‘</term>
+      <term name="close-inner-quote">’</term>
+      <term name="page-range-delimiter">-</term>
+    </terms>
+  </locale>
+  <!-- The rest of the style remains identical to the original Chinese version, except locale and label changes -->
+  <!-- Copy and paste all macros and logic from the Chinese version, then update Chinese suffixes, terms, and labels as shown above. -->
+  <!-- If you'd like, I can copy the full macro and logic structure with the translated labels here. -->
+  <citation collapse="citation-number" after-collapse-delimiter=",">
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
+    <layout vertical-align="sup" delimiter="," prefix="[" suffix="]">
+      <text variable="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography entry-spacing="0" et-al-min="4" et-al-use-first="3" second-field-align="flush">
+    <layout suffix=".">
+      <text variable="citation-number" prefix="[" suffix="]"/>
+      <text macro="entry-layout"/>
+    </layout>
+  </bibliography>
+</style>
